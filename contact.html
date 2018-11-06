@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">    
 
     <title>Leila Art - Contact Me</title>
   </head>
@@ -25,13 +25,16 @@
 
         <div id="navigation">
           <div class="dropdown">
-            <button class="btn btn-secondary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a style="padding-right:12px;">Menu<a/>
+            <button class="btn btn-secondary" type="button" data-toggle="dropdown">
               <i class="fas fa-bars"></i>
             </button>
             <div class="dropdown-menu dropdown-menu-right">
-              <a class="dropdown-item" href="gallery.html">Gallery</a>
-              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="services.html">Services</a>
+              <a class="dropdown-item" href="about.html">About</a>
               <a class="dropdown-item active" href="contact.html">Contact</a>
+              <!--<a class="dropdown-item" href="blog.html" id = "t2">Blog</a>-->
             </div>
           </div>
         </div>
@@ -40,12 +43,46 @@
     </header>
 
     <!-- CONTENT -->
-    <h1>Contact me</h1>
+    <main role="main">
+      <div class="container">
+        <div class="row vert-buffer">
+          
+          <div class="col-md-7 order-md-2">
+            
+            <h1 style="margin-bottom:80px;">Contact Me</h1>
+
+            <dl class="row">
+              <dt class="col-sm-3">Email</dt>
+              <dd class="col-sm-9">&#97;&#114;&#116;&#108;&#101;&#105;&#108;&#97;&#32;&#91;&#97;&#116;&#93;&#32;&#49;&#54;&#51;&#32;&#91;&#100;&#111;&#116;&#93;&#32;&#99;&#111;&#109;</dd>
+
+              <dt class="col-sm-3">Address</dt>
+              <dd class="col-sm-9">Shanghai, China</dd>
+
+              <dt class="col-sm-3">Nested List</dt>
+              <dd class="col-sm-9">
+                <dl class="row">
+                  <dt class="col-sm-4">Nested definition list</dt>
+                  <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+                </dl>
+              </dd>
+            </dl>
+          
+          </div>
+
+          <div class="col-md-5 order-md-1">
+            <img class="img-fluid mx-auto" src="img/example2.jpg" alt="Example 2">
+          </div>
+
+        </div>
+      </div>
+
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
   </body>
 </html>
