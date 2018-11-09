@@ -7,6 +7,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+li {
+  margin:7px 0;
+}
+
 .footer {
   position: absolute;
   width: 100%;
@@ -19,6 +23,10 @@ body {
 
 .image-restricted {
   max-height: 500px;
+}
+
+.about-text {
+  line-height:1.75;
 }
 
 /* ----- Jumbotron ----- */
